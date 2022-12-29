@@ -1,0 +1,29 @@
+p {
+    text-align: center;
+    /* margin: 50px 15px 15px 5px; */
+    padding: 30px;
+}
+
+div {
+    box-sizing: border-box;
+    background-color: lightgrey;
+    width: 400px;
+    border: 5px solid blue;
+    margin: 0px auto;
+    height: 800px;
+}
+
+.pic {
+    text-align: center;
+    width: 300PX;
+    height: 200px;
+
+}
+
+.man {
+    background-color: antiquewhite;
+    color: red;
+    height: 300px;
+    width: 210px;
+
+}

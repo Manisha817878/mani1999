@@ -1,0 +1,27 @@
+*
+{
+    color: blue;
+    font-size: bolder;
+    }
+div {
+    height: 220px;
+    width: 220px;
+    display: inline-block;
+    border: 5px ridge purple;
+    margin: 30px;
+    padding: 5px;
+    box-shadow: 3px 5px black;
+
+}
+img {
+    height: 220px;
+    width: 220px;
+}
+
+body {
+    text-align: center;
+    background: url(../images/style.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    
+}

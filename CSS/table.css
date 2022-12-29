@@ -1,0 +1,30 @@
+table ,th,td 
+{
+    text-align: center;
+    /* background-color:pink;  */
+   border: 2px solid; border-color:blue;
+   height: 10%;
+   /* width: 40%; */
+   /* border-collapse:collapse; */
+   padding: 6px;
+word-spacing: 2px;
+table-layout: fixed;
+width: 100%;
+
+}
+tr:hover {background-color: coral;}
+ 
+tr:nth-child(even) {background-color: pink;}
+/* tr:nth-child(odd){background-color: red;} */
+
+h1 {
+ color:blue;
+ background-color: yellow;
+ display:inline-block;
+}
+td {
+    border: 1px solid rgb(113, 113, 230);
+  }
+  tr:nth-child(2n+0) {
+    background: red;
+  }

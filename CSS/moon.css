@@ -1,0 +1,80 @@
+
+.moon {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background:linear-gradient(grey, white);
+    box-shadow: 5px 5px 125px white;
+  }
+  .moon:before {
+    content: "";
+    background: rgb(146, 144, 144);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 50px 140px;
+  }
+  .moon:after {
+    content: "";
+    background: rgb(146, 144, 144);
+    border-radius: 100%;
+    float: right;
+       width: 50px;
+    height: 50px;
+    display: block;
+    margin: -20px 40px;
+  }
+
+
+.span1 {
+    font-size:500%;color:white; float:right;
+}
+.span2{
+font-size:200%;color:white; float: right; margin: 5%;
+}
+.span3{
+    font-size:400%;color:white; float: right; margin: 10%;
+}
+.span4{
+font-size:100%;color:white; float: right; margin: 8%;
+}
+.span5{
+  font-size:300%;color:white; float: right; margin: 6%;
+}
+.span6{
+    font-size: 30px;color:white; float: right; margin: 1%;
+  }
+  .span7{
+    font-size: 30px;color:white; float: right; margin: 1%;
+  }
+  .span8{
+    font-size: 40px;color:white; float: right; margin: 2%;
+  }
+  .span9{
+    font-size: 400%;color:white; float: right; margin: 3px; 
+  }
+
+
+
+.moon1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background:linear-gradient(to left, yellow, orange);
+    box-shadow: 5px 5px 125px rgb(194, 159, 94);
+}
+
+body {
+    background-color: black;
+}
+.jupiter {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background:linear-gradient(to left, yellow, red);
+    box-shadow: 5px 5px 25px red;
+}
+h1 {
+    color: aqua; text-align: center;
+}

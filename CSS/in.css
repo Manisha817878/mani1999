@@ -1,0 +1,22 @@
+table ,tr
+{
+    text-align: center;
+    /* background-color:pink;  */
+   border: 5px solid; 
+   height: 60%;
+   width: 40%;
+   /* border-collapse:collapse; */
+   padding: 6px;
+word-spacing: 2px;
+/* table-layout: fixed; */
+width: 100%;
+
+}
+/* tr:hover {background-color: coral;} */
+ 
+/* tr:nth-child(even) {background-color: pink;} */
+tr:nth-child(odd){background-color: black;}
+
+/* td {
+    border: 1px solid rgb(113, 113, 230);
+} */

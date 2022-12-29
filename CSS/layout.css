@@ -1,0 +1,119 @@
+/* footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+} */
+body {
+    margin: 0;
+    padding: 0;
+    border: 15px solid red;
+}   
+
+* {
+    font-size: 40px;
+}
+
+.header1 {
+    height: 140px;
+    margin-bottom: 5PX;
+    background-color: grey;
+    border: 3px solid blue;
+    text-align: center;
+}
+
+.header2 {
+    height: 140px;
+    margin-bottom: 5PX;
+    background-color: grey;
+    border: 3px solid blue;
+    text-align: center;
+}
+
+.manisha {
+    width: 980px;
+    margin: 5% 0 0 25%;
+}
+
+
+.header {
+    height: 140px;
+    margin-bottom: 5PX;
+    background-color: aqua;
+    border: 3px solid blue;
+    text-align: center;
+}
+
+.content {
+    width: 690px;
+    height: 450px;
+    background-color: antiquewhite;
+    float: right;
+    border: 3px solid blue;
+}
+
+.sidebar {
+    width: 275px;
+    height: 450px;
+    background-color: antiquewhite;
+    float: left;
+    border: 3px solid blue;
+}
+
+.footer {
+    margin-top: 10px;
+    clear: both;
+    height: 150px;
+    border: 3px solid blue;
+}
+/* 
+div.man {
+    background-color: lightgrey;
+    width: 300px;
+    height: 200px;
+    border: 5px solid green;
+    float: left;
+    margin: 0px auto;
+}
+
+div#outer {
+    height: 900px;
+    width: 1000px;
+    border: 2px solid red;
+}
+
+div#outer1 {
+    height: 210px;
+    width: 900px;
+    padding: 10px;
+    margin-left: 4%;
+    margin-top: 4%;
+    border: 2px solid red;
+}
+div#outer2 {
+    height: 200px;
+    width: 400px;
+      padding: 0 auto;
+    border: 2px solid red;
+} */
+
+.outer {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: black;
+}
+.inner {
+    width: auto;
+    height: 200px;
+    margin: 50px 50px 0 50px;
+    background-color: yellow;
+}

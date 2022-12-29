@@ -1,0 +1,33 @@
+:before,
+:after {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    position: fixed;
+    transform: translateX(-100%);
+}
+
+.toy-toggle span {
+    display: block;
+    position: absolute;
+}
+.toy-toggle>span{
+    top: 50%;
+    left: 50%;
+    }
+    
+.toy-toggle>span:not(.handle) {
+transform: translate(-50%, -50%); 
+
+}
+.border1{
+    background: linear-gradient(0deg #fff 33%, #ccc 45%);
+    border-radius: 4.75em;
+    box-shadow: 0 0 0.2em 0.3em #f0f0f0 inset; 
+    width: 16.5em;
+    height: 8.5em;
+}

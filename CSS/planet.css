@@ -1,0 +1,87 @@
+html,
+body {
+  background: #0b1c22;
+ 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.orbit {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  position: absolute;
+  border-radius: 100%;
+  margin: -50px auto;
+  -webkit-animation: orbit 12.81216s linear infinite;
+          animation: orbit 12.81216s linear infinite;
+}
+
+.planet {
+  background: #C25447;
+  box-shadow: inset -30px -30px 0px #bf4d3f;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.planet:before {
+  content: "";
+  background: #b4483c;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 50px 100px;
+}
+.planet:after {
+  content: "";
+  background: #b84a3d;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: -20px 40px;
+}
+
+.moon {
+  background: #9E9E9E;
+  box-shadow: inset -7px -7px 0 #8c8c8c;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 20px;
+}
+.moon:before {
+  content: "";
+  background: #949494;
+  border-radius: 100%;
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  margin: 10px 10px;
+}
+.moon:after {
+  content: "";
+  background: #949494;
+  border-radius: 100%;
+  width: 9px;
+  height: 9px;
+  display: block;
+  margin: -7px 20px;
+}
+
+@-webkit-keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
