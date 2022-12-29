@@ -1,0 +1,300 @@
+<!-- <html>
+    <head>
+        <title>chess board</title>
+<link href="chess.css" rel="stylesheet"/>
+    </head>
+    <style>
+        .chess {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+        }
+
+.chess::before {
+    content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                    0deg, #000 0, #000 40px, 
+                    #fff 40px, #fff 80px);
+}
+.chess::after{
+    content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                90deg, #000 0, #000 40px, 
+                #fff 40px, #fff 80px);
+            mix-blend-mode: difference;
+}
+    </style>
+    <body>
+        <div class="chess"></div>
+    </body>
+</html>
+
+
+ -->
+<html>
+
+<head>
+    <style>
+        * {
+            border-spacing: 0;
+            padding: 20PX;
+        }
+
+        /* .light {
+            background: white;
+            border: 1px solid;
+        }
+
+        .dark {
+            background: black;
+            border: 1px solid;
+              } */
+        .light:nth-child(n+1) {
+            background: white;
+            border: 1px solid;
+        }
+
+        .dark:nth-child(n+1) {
+            background: black;
+            border: 1px solid;
+
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <th></th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+                <th>E</th>
+                <th>F</th>
+                <th>G</th>
+                <th>H</th>
+            </tr>
+            <tr>
+                <th>8</th>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+            </tr>
+            <tr>
+                <th>7</th>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+            </tr>
+            <tr>
+                <th>6</th>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+
+
+
+
+
+<!-- <html>
+<head>
+<meta charset="UTF-8"> 
+<title>Chessboard using Pure CSS and HTML</title>
+
+<style type="text/css">
+
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #999;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="chessboard">
+
+<div class="white">&#9820;</div>
+<div class="black">&#9822;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9819;</div>
+<div class="white">&#9818;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9822;</div>
+<div class="black">&#9820;</div>
+
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+
+<div class="black">&#9814;</div>
+<div class="white">&#9816;</div>
+<div class="black">&#9815;</div>
+<div class="white">&#9813;</div>
+<div class="black">&#9812;</div>
+<div class="white">&#9815;</div>
+<div class="black">&#9816;</div>
+<div class="white">&#9814;</div>
+</div>
+</body>
+</html> -->
